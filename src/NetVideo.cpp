@@ -10,6 +10,13 @@
 #include "Rental.hpp"
 #include "Customer.hpp"
 
+void genheat(int len){
+    //Generate heat
+    for(int i = 0; i < len; ++i){
+    //
+    }    
+}
+
 int main() {
 
     // Videos
@@ -31,10 +38,7 @@ int main() {
     // Output customer statement
     std::cout << customer.statement();
     
-    //Generate heat
-    for(int i = 0; i < 1000; ++i){
-    //
-    }    
-
+    genheat(10);
+    
     return 0;
 }
